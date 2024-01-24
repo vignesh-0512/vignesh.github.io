@@ -1,0 +1,244 @@
+/* website */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    display: flex;
+    background-color: rgb(0, 106, 255);
+    height:50px;
+    align-items: center;
+}
+
+.nav .links a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+
+.nav .name{
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.menu1{
+    height: 3px;
+    width: 20px;
+    background-color: black;
+    margin-bottom: 3px;
+    margin-right: 5px;
+}
+
+.menu{
+    cursor: pointer;
+    display: none;
+    
+}
+
+/* body section */
+.img{
+  display:flex;
+  position: absolute;
+  top:150px;
+  left: 100px;
+  border-radius: 10px;
+}
+
+.about{
+    display: flex;
+    top:200px;
+    position:absolute;
+    bottom:250px;
+    left:500px;
+    font-size:20px;
+    margin-right: 20px;
+    color: whitesmoke;
+}
+ 
+.aboutsection {
+    padding: 250px;
+    color:rgb(38, 30, 35);
+}
+
+
+.aboutsection .img img{
+    border-radius:40px 10px;
+}
+
+.about br{
+     margin-bottom: 10px;
+}
+
+section:target{
+    display: block;
+}
+
+.container-fluid{
+    margin-top: 30px;
+    height: 400px;
+    margin: 0;
+}
+
+h3{
+    margin-top: 30px;
+}
+
+h5{
+    text-align: center;
+}
+
+.row{
+    margin-bottom: 20px;
+}
+
+.social-link{
+    display: flex;
+    margin-left:150px;
+    gap:30px;
+}
+
+#About{
+    background-color: rgb(0, 0, 0);
+    height:700px;
+}
+
+.container-fluid h3{
+    text-align: center;
+}
+
+#skills{
+    position:relative;
+    top:-100px;
+    height:700px;
+    color: white;
+    margin-top: 100px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.contact form .input{
+         display: grid;        
+         justify-content: center;
+         position: relative;
+         top:100px;
+         color:whitesmoke
+}
+
+input{
+    height:30px;
+    width:500px;
+    margin-bottom: 30px;
+}
+
+textarea{
+    height: 100px;
+    width: 500px;
+
+}
+
+.contact h3{
+    position: absolute;
+    left:700px;
+    bottom:500px;
+    color: whitesmoke;
+}
+
+.contact{
+    background-color: rgb(0, 0, 0);
+    padding:30px;
+    height: 600px;
+    box-sizing: border-box;
+    position: relative;
+    top:-100px;
+}
+
+form button{
+    height:30px;
+    width: 100px;
+    border-radius:10px;
+    position:absolute;
+    left:720px;
+    bottom: 80px;
+    background-color: black;
+    color: whitesmoke;
+
+}
+
+form{
+    background-color:rgb(0, 98, 245) ;
+    height:500px;
+    border-radius:30px;
+}
+
+body{
+    background-color: black;
+    height:-20px;
+}
+
+.footer{
+    text-align:center;
+    padding:10px;
+    height: 50px;
+    color:rgb(0, 0, 0);
+    background-color: whitesmoke;
+    
+}
+
+/* mobile screen */
+@media (max-width: 767px) {
+
+    .img img{
+        margin-left:-40px;
+    }
+    .social-link{
+        margin-left: 100px;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .about{
+       display: none;
+    }
+
+    .contact{
+        margin-top:300px;
+    }
+
+    .contact form{
+        width:400px;
+    }
+
+    input{
+        width:300px;
+    }
+
+    textarea{
+        width:300px
+    }
+
+    form button{
+        height:30px;
+        width: 100px;
+        border-radius:10px;
+        position:absolute;
+        left:200px;
+        bottom: 80px;
+        background-color: black;
+        color: whitesmoke;
+    
+    }
+
+    .contact h3{
+        position: absolute;
+        left:200px;
+        bottom:500px;
+        color: whitesmoke;
+    }
+    
+    
+}
